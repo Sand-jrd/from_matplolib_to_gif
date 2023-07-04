@@ -18,12 +18,9 @@ from os.path import isdir
 ## You should have edit this file beforhand to make the plot you wanted. 
 from create_plot_function import *
 
-gif_name = "mygif" # Name the gif
-
-
 plt.ioff()
 
-plt.figure("TMP_GIF",figsize=(15,6))
+plt.figure("TMP_GIF",figsize=figsize)
 if not isdir("./tmp/"): makedirs("./tmp/")
 
 images = []
