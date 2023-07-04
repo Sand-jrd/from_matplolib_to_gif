@@ -1,4 +1,4 @@
-# Matplolib_gif_generator
+# Matplotlib_gif_generator
 
 A small tool to generate gif from a series of matplotlib figures. 
 
